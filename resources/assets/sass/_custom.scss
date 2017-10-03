@@ -1,0 +1,186 @@
+body,
+#app {
+    background: #f3f3f3;
+    min-height: 100% !important;
+    color: #f4f4f4;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(31, 31, 31, 0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(16, 16, 16, 0.4);
+}
+
+p {
+    text-align: justify;
+}
+
+.dropdown-menu {
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #222 !important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    a:hover {
+        color: #222 !important;
+    }
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+    -webkit-transition: background-color 1.5s ease-out;
+    -moz-transition: background-color 1.5s ease-out;
+    -o-transition: background-color 1.5s ease-out;
+    transition: background-color 1.5s ease-out;
+    .navbar-brand {
+        img {
+            width: 35px;
+            height: 34px;
+        }
+    }
+    a {
+        color: #fff !important;
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+}
+
+.navdark {
+    background-color: #171717 !important;
+    -webkit-transition: background-color 1.5s ease-out;
+    -moz-transition: background-color 1.5s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    .navbar-brand {
+        img {
+            width: 35px;
+            height: 34px;
+        }
+    }
+    a {
+        color: #fff !important;
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+}
+
+.hero-section {
+    height: 100vh;
+    background: #222;
+}
+
+.main-section {
+    background: #383838;
+    color: #f4f4f4;
+}
+
+.showcase-section {
+    height: 30vh;
+    background: url('https://maxwesttelecom.com/wp-content/uploads/2017/02/dark-bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    img {
+        width: 40%;
+    }
+}
+
+.photo-section {
+    padding: 80px !important;
+}
+
+#photo-indicators {
+    #carousel-indicators {
+        display: none;
+    }
+}
+
+.img-indicator {
+    width: 100% !important;
+    text-align: center;
+    padding: 10px;
+    width: 100% !important;
+    a {
+        margin: 0px 10px;
+        img {
+            width: 25%;
+        }
+    }
+}
+
+#photos {
+    /* Prevent vertical gaps */
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 5;
+    -moz-column-gap: 0px;
+    column-count: 5;
+    column-gap: 0px;
+    height: 45vh;
+    overflow: hidden;
+    background: url("https://maxwesttelecom.com/wp-content/uploads/2017/02/dark-bg.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#photos img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+}
+
+@media (max-width: 1200px) {
+    #photos {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (max-width: 1000px) {
+    #photos {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (max-width: 800px) {
+    #photos {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    #photos {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
