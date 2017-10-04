@@ -1,7 +1,8 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <h1 align="center">Laravel 5.5 Multiple-Auth Packages</h1>
-From Original Repository [@trojan302](https://github.com/trojan302/laravel-multiple-auth)
+
+From Original Repository [trojan302](https://github.com/trojan302/laravel-multiple-auth)
 
 ### Requirement*
 - PHP >= 7.0.0
