@@ -13,10 +13,10 @@
         "axios": "^0.16.2",
         "bootstrap": "^4.0.0-beta",
         "cross-env": "^5.0.1",
-        "jquery": "^3.2.1",
         "laravel-mix": "^1.0",
         "lodash": "^4.17.4",
-        "popper.js": "^1.12.5"
+        "popper.js": "^1.12.5",
+        "jquery": "^3.2.*"
     },
-    "dependencies": {}
+    "dependencies": []
 }

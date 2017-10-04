@@ -29,19 +29,6 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="photographyLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Pothography
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="photographyLink">
-                       <a class="dropdown-item" href="#">Architecture</a>
-                       <a class="dropdown-item" href="#">Models</a>
-                       <a class="dropdown-item" href="#">Nature</a>
-                       <a class="dropdown-item" href="#">Advanture</a>
-                    </div>
-                </li>
-                <li class="navbar-item"><a class="nav-link" href="">About</a></li>
-                <li class="navbar-item"><a class="nav-link" href="">Contact Us</a></li>
             <!-- Authentication Links -->
             @guest
                 <li class="navbar-item"><a class="nav-link" href="{{ route('login') }}">Login</a></li>
