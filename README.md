@@ -26,7 +26,7 @@ From Original Repository [trojan302](https://github.com/trojan302/laravel-multip
 
 <p align="center"><img src="https://image.ibb.co/naoPOw/download_via_git.png" alt="download_via_git" border="0"></p>
 
-	@fcodexxx ⇒ (htdocs) git clone https://github.com/trojan302/laravel-multiple-auth.git project-laravel
+	@fcodexxx ⇒ (htdocs) git clone https://github.com/darkterminal/laravel-multiple-auth.git project-laravel
 
 ### Install Packages
 <p align="center"><img src="https://image.ibb.co/f4d2Ab/install_using_composer.png" alt="install_using_composer" border="0"></p>
